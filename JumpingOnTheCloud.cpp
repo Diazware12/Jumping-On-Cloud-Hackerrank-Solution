@@ -7,7 +7,6 @@ int main() {
 	int numberArray;
 	int array [200] = {};
 	int start = 0;
-	int curr = 0;
 	int nilai = 0;
 	
 	cin >> input;
