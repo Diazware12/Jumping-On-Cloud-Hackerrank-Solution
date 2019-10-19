@@ -7,7 +7,7 @@ int main() {
 	int numberArray;
 	int array [200] = {};
 	int start = 0;
-	int nilai = 0;
+	int score = 0;
 	
 	cin >> input;
 	for (int i = 0 ; i < input; i++)
@@ -26,20 +26,20 @@ int main() {
 			
 			if (array[start+2] == 0)
 			{
-				nilai++;
+				score++;
 				start += 2;
 			}
 			
 			else if (array [start+2] == 1)
 			{
-				nilai++;
+				score++;
 				start += 1;
 			}
 
 		}
 	}
 	
-	cout << nilai;
+	cout << score;
 
 
 
